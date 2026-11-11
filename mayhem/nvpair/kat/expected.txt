@@ -1,0 +1,23 @@
+boolean boolean
+flag boolean_value=1
+b byte=0x7f
+i8 int8=-5
+u8 uint8=250
+i16 int16=-1234
+u16 uint16=54321
+i32 int32=-100000
+u32 uint32=4000000000
+i64 int64=-5000000000
+u64 uint64=18446744073709551615
+hr hrtime=123456789012
+str string=illumos
+bytes byte_array[5]=1,2,3,4,5
+u32s uint32_array[3]=10,20,30
+bools boolean_array[3]=1,0,1
+strs string_array[2]=alpha,beta
+sub nvlist
+  inner string=gate
+  n uint64=42
+subs nvlist_array[2]
+  idx uint32=7
+  idx uint32=8

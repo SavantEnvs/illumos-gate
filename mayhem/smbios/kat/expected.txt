@@ -1,0 +1,12 @@
+smbios version 3.0
+bios vendor=Mayhem BIOS Vendor version=V2.07.1 reldate=11/10/2026 segment=0xe000 romsize=16777216 cflags=0x99b90 biosv=2.7
+system uuidlen=16 wakeup=6 sku=SKU-77 family=Rocket Family uuid=101112131415161718191a1b1c1d1e1f
+lang cur=enUS fmt=1 num=2
+struct id=0x0 type=0
+struct id=0x1 type=1 system mfg=Acme Corp product=Rocket 9000 version=rev-C serial=SN-0042
+struct id=0x3 type=3 chassis mfg=Acme Chassis ver=ch-1.0 serial=CH-SERIAL asset=ASSET-9 type=7 lock=1 oem=0xcafef00d u=2 cords=1 sku=CH-SKU
+struct id=0xb type=11 oemstrings=3 [oem-one] [oem-two] [oem-three]
+struct id=0xd type=13
+struct id=0x1100 type=17 memdevice size=17179869184 twidth=72 dwidth=64 speed=3200 form=9 type=26 dloc=DIMM_A1 bloc=BANK 0 mfg=Micron serial=DIMM-SN-4352 part=MTA18ASF2G72PDZ
+struct id=0x1101 type=17 memdevice size=68719476736 twidth=72 dwidth=64 speed=2666 form=2 type=24 dloc=DIMM_B1 bloc=BANK 1 mfg=Micron serial=DIMM-SN-4353 part=MTA18ASF2G72PDZ
+structures=7
