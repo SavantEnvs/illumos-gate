@@ -1,0 +1,3 @@
+#ifndef _MAYHEM_NVSHIM_SYS_STROPTS_H
+#define _MAYHEM_NVSHIM_SYS_STROPTS_H
+#endif

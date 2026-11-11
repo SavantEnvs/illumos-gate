@@ -1,0 +1,9 @@
+project: savantenvs/illumos-gate
+target: fuzz_smbios
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_smbios/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_smbios
+    libfuzzer: true
+    timeout: 30

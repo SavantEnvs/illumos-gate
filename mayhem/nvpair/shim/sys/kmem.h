@@ -1,0 +1,5 @@
+#ifndef _MAYHEM_NVSHIM_SYS_KMEM_H
+#define	_MAYHEM_NVSHIM_SYS_KMEM_H
+#define	KM_SLEEP	0x0000
+#define	KM_NOSLEEP	0x0001
+#endif

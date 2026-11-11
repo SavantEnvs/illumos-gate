@@ -1,0 +1,4 @@
+#ifndef _MAYHEM_NVSHIM_SYS_ISA_DEFS_H
+#define	_MAYHEM_NVSHIM_SYS_ISA_DEFS_H
+#define	_LITTLE_ENDIAN
+#endif

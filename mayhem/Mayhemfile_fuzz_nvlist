@@ -1,0 +1,9 @@
+project: savantenvs/illumos-gate
+target: fuzz_nvlist
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_nvlist/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_nvlist
+    libfuzzer: true
+    timeout: 30
